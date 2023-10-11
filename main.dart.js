@@ -9392,9 +9392,11 @@ _.c=0},
 ajd(){return new A.qt(new A.T9(),A.x(t.K,t.oc))},
 E8:function E8(a,b){this.a=a
 this.b=b},
-r7:function r7(a,b,c){this.e=a
-this.cy=b
-this.a=c},
+r7:function r7(a,b,c,d){var _=this
+_.e=a
+_.CW=b
+_.cy=c
+_.a=d},
 T9:function T9(){},
 Td:function Td(){},
 vc:function vc(a){var _=this
@@ -36384,14 +36386,15 @@ if(l==null)l=o.ax.b
 k.a.toString
 s=b==null?B.jx:b
 return new A.tj(A.aae(new A.p3(o,s,B.a_,B.ay,j,j),l,n),j)},
-MA(a){var s,r=this,q=null,p=r.a,o=p.cy
-o=o.fr
-s=o
+MA(a){var s,r,q=this,p=null,o=q.a,n=o.cy
+n=n.fr
+s=n
 if(s==null)s=B.dv
-p=p.e
-o=r.gQB()
-r.a.toString
-return new A.ur(q,q,q,new A.a2D(),q,q,q,q,q,p,B.Cc,q,q,B.zR,r.gQH(),"",q,B.FX,s,q,o,q,q,B.lB,!1,!1,!1,!1,r.gQk(),!0,q,q,q,!1,new A.j2(r,t.l9))},
+n=o.e
+o=o.CW
+r=q.gQB()
+q.a.toString
+return new A.ur(p,p,p,new A.a2D(),p,p,p,p,p,n,B.Cc,p,p,B.zR,q.gQH(),o,p,B.FX,s,p,r,p,p,B.lB,!1,!1,!1,!1,q.gQk(),!0,p,p,p,!1,new A.j2(q,t.l9))},
 R(a){var s,r=null,q=A.A2(!1,!1,this.MA(a),r,r,r,r,!0,r,r,new A.a2E(),r,r,r)
 this.a.toString
 s=this.d
@@ -56579,7 +56582,7 @@ case 1:return A.Y(q,r)}})
 return A.Z($async$$0,r)},
 $S:25}
 A.AU.prototype={
-R(a){return new A.r7(B.y2,A.ac9(null,"Montserrat",null),null)}}
+R(a){return new A.r7(B.y2,"Mind Power",A.ac9(null,"Montserrat",null),null)}}
 A.UG.prototype={
 LV(a){$.a6L().a.set(this,a)}}
 A.AF.prototype={
